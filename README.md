@@ -250,4 +250,3 @@ training('./datasets/bodyshape_underwear/train','./datasets/bodyshape_underwear/
 from inference import inference
 inference('./datasets/infer.png')
 ~~~
-```
