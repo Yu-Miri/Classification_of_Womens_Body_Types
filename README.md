@@ -214,10 +214,10 @@
 
 ## 개선사항 & 기대효과
 
-- 개선사항
+- **개선사항**
     - 주관적으로 Labeling을 하게 되면서 기준이 명확하지 않아 모델이 잘못 예측하는 문제 발생
     - 다양한 체형이 존재하지만 제한된 Label의 개수로, 분류한 Label 외의 체형은 잘못 예측하게 되는 문제 발생
-- 기대효과 : Application
+- **기대효과** : Application
 
 <img width="1056" alt="스크린샷 2023-07-27 오후 1 12 34" src="https://github.com/Yu-Miri/Classification_of_Womens_Body_Types/assets/121469490/c64cf040-8199-47c6-8e20-73eaf7b0a9b1">
 
