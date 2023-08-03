@@ -87,6 +87,7 @@
 ### AlexNet
 
 - 모델의 기본 구조
+  
     <img width="462" alt="스크린샷 2023-07-27 오후 1 10 14" src="https://github.com/Yu-Miri/Classification_of_Womens_Body_Types/assets/121469490/f3561e14-4bb0-4695-aadf-72e2030f54b5">
 
     - Image의 Input Shape은 227x227x3이며, 5개의 Conv Layer에서 이미지의 특징을 추출하고, 3개의 Fully Connected Layer에서 추출된 특징을 바탕으로 분류하는 구조로, 6,000만 개의 파라미터를 가지고 있다.
@@ -128,6 +129,7 @@
 ### VGG 16
 
 - 모델의 기본 구조
+  
     <img width="475" alt="스크린샷 2023-07-27 오후 1 11 01" src="https://github.com/Yu-Miri/Classification_of_Womens_Body_Types/assets/121469490/917a4089-6e1a-41f5-95c6-f6047c4dbe7b">
 
     
@@ -166,6 +168,7 @@
 ### ResNet
 
 - 모델의 기본 구조
+
     <img width="561" alt="스크린샷 2023-07-27 오후 1 11 44" src="https://github.com/Yu-Miri/Classification_of_Womens_Body_Types/assets/121469490/a2c09c04-ebcf-4d24-9fc6-ea7b60e0cd62">
     
     - Image의 Input Shape은 224x224x3이며, 49개의 Conv Layer에서 이미지의 특징을 추출하고, 1개의 Fully Connected Layer에서 추출된 특징을 바탕으로 분류하는 구조로, 약 700만 개의 파라미터를 가지고 있다.
