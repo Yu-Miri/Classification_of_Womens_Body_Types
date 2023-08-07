@@ -5,10 +5,11 @@
 - **기간** : 2023.03.10 ~ 2023.03.31
 - **인원 구성** : 3명
 - **주요업무 및 상세역할**
-    - **크롤링** : 데이터셋의 Label의 균형을 맞추기 위해 일자 체형의 이미지 크롤링을 맡았습니다.
-    - **데이터 전처리** : 개발환경에 맞게 용량을 최소화하기 위해 Resize를 적용하였으며, Loss 그래프와 Accuracy Score를 통하여 모델의 학습 여부에 따라 데이터셋에 Crop, Gray Scaling, Zero-Centering, Augmentation을 적용하여 모델의 성능을 개선하였습니다.
-    - **데이터 레이블링** : 체형 분석에 있어서 시각적으로 판단해야 하기 때문에 치수 데이터를 사용하지 않고 직접 Labeling
-    - **모델 성능 개선** : ResNet 모델의 기본 구조를 파악하고, 모델의 Dense와 Learning Rate를 조정하며 Hyper Parameter를 직접 바꾸는 경험을 해보았습니다. 이에 더하여 모델을 성능을 최적화하기 위해 Early Stopping, ReduceLROnPlatue를 사용해보고, Dropout 기법을 적용하면서 Augmentation 등의 다양한 전처리를 적용하여 모델의 성능을 일반화하였습니다.
+    - 프로젝트 **주제 선정 및 계획 수립**
+    - 여성의 일자 체형 이미지 **크롤링**
+    - **데이터 레이블링** 및 Resize(224*224), Padding, Crop, Gray-Scaling, Zero-Centering, Augmentation(horizontal flip, rotation range, height shift range)를 적용하여 **데이터 전처리**
+    - node num, hidden layer, learning rate, dropout, early stopping, Reduce LR On Platue를 적용해보며 ResNet **모델 핸들링**
+    - 프로젝트 **발표자료 작성 및 발표**
 - **사용언어 및 개발환경** : Google colab Pro+, Python, Selenium, BeautifulSoup, Numpy, Pandas, Matplotlib, OpenCV, VSCode, Mac OS, Slack
 
 ## 문제 정의
