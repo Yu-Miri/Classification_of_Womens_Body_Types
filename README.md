@@ -178,11 +178,8 @@
     
     | Learning Rate | Layer1 | Layer2 | Layer3 | Train Accuracy | Validation Accuracy | Test Accuracy | Validation Loss |
     | --- | --- | --- | --- | --- | --- | --- | --- |
-    | Zero-Centering(X)
-    Resnet 50
-    0.0001 | 512 | 256 | 256 | 0.000e+00 | 0 | 0 | 51.95 |
-    | ResNet 50
-    0.0001 | 512, Dropout | 512, Dropout | 256 | 0.60 | 0.68 | 0.73 | 0.65 |
+    | Zero-Centering(X) & Resnet 50 & 0.0001 | 512 | 256 | 256 | 0.000e+00 | 0 | 0 | 51.95 |
+    | ResNet 50 & 0.0001 | 512, Dropout | 512, Dropout | 256 | 0.60 | 0.68 | 0.73 | 0.65 |
     | 0.00001 | 512 | 512, Dropout | 256, Dropout | 0.96 | 0.76 | 0.76 | 0.70 |
     | 0.00001 | 512, Dropout | 256 | 256, Dropout | 0.98 | 0.78 | 0.82 | 0.66 |
     | 0.00001(*) | 512, Dropout | 256 | 256, Dropout | 0.95 | 0.83 | 0.83 | 0.50 |
