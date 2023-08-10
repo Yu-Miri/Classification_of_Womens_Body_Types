@@ -10,7 +10,7 @@
     - **데이터 레이블링** 및 Resize(224*224), Padding, Crop, Gray-Scaling, Zero-Centering, Augmentation(horizontal flip, rotation range, height shift range)를 적용하여 **데이터 전처리**
     - node num, hidden layer, learning rate, dropout, early stopping, Reduce LR On Platue를 적용해보며 ResNet **모델 핸들링**
     - 프로젝트 **발표자료 작성 및 발표**
-- **사용언어 및 개발환경** : Google colab Pro+, Python, Selenium, BeautifulSoup, Numpy, Pandas, Matplotlib, OpenCV, VSCode, Mac OS, Slack
+- **사용언어 및 개발환경** : Google colab Pro+, Python, Selenium, BeautifulSoup, Numpy, Pandas, Matplotlib, OpenCV
 
 ## 문제 정의
 
